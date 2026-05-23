@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    background-color: #f0f8ff; /* Cor de fundo suave */
+    font-family: Arial, sans-serif; /* Fonte agradável */
+    color: #333; /* Cor de texto padrão */
+}
+
+h1 {
+    color: #2e8b57; /* Cor do título */
+}
+
+p {
+    color: #555; /* Cor do parágrafo que complementa o título */
+}
+
+a {
+    color: #1e90ff; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Feedback</title>
+</head>
+<body>
+    <h2>Formulário de Feedback</h2>
+    <form>
+        <label for="fullname">Nome Completo:</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Endereço de E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="tema">Selecione o Tema:</label><br>
+        <select id="tema" name="tema">
+            <option value="sugestao">Sugestão</option>
+            <option value="elogio">Elogio</option>
+            <option value="reclamacao">Reclamação</option>
+        </select><br><br>
+
+        <label for="feedback">Feedback Detalhado:</label><br>
+        <textarea id="feedback" name="feedback" rows="4" required></textarea><br><br>
+
+        <label>Classifique sua Experiência:</label><br>
+        <input type="radio" id="estrela1" name="estrela" value="1">
+        <label for="estrela1">1 Estrela</label>
+        <input type="radio" id="estrela2" name="estrela" value="2">
+        <label for="estrela2">2 Estrelas</label>
+        <input type="radio" id="estrela3" name="estrela" value="3">
+        <label for="estrela3">3 Estrelas</label>
+        <input type="radio" id="estrela4" name="estrela" value="4">
+        <label for="estrela4">4 Estrelas</label>
+        <input type="radio" id="estrela5" name="estrela" value="5">
+        <label for="estrela5">5 Estrelas</label><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

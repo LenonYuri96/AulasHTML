@@ -1,0 +1,55 @@
+/* Estilo para post.html */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ff5733; /* Cor que se destaca */
+}
+
+main {
+    padding: 20px;
+}
+
+.post-content {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-content h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.post-content p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.post-content a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.post-content a:hover {
+    text-decoration: underline;
+}

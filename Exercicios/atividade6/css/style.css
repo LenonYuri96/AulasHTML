@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 20px 0;
+}
+
+.posts {
+    padding: 20px;
+}
+
+.post-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.post-item h2 {
+    margin: 0;
+    color: #007bff;
+}
+
+.post-item p {
+    color: #666;
+    font-size: 16px;
+}
+
+.post-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.post-item a:hover {
+    text-decoration: underline;
+}

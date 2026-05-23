@@ -1,0 +1,62 @@
+/* Estilo para index.html */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ff5733; /* Cor que se destaca */
+}
+
+main {
+    padding: 20px;
+}
+
+.blog-posts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.blog-post h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.blog-post p {
+    color: #666;
+}
+
+.blog-post a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #ff5733;
+    text-decoration: none;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}

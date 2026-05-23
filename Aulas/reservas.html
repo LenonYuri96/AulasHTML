@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário de Reservas</title>
+    </head>
+    <body>
+        <h2>Formulário de Reservas</h2>
+        <form>
+            <label for="fullname">Nome Completo:</label><br>
+            <input type="text" id="fullname" name="fullname" required><br><br>
+
+            <label for="checkin">Data de Chegada:</label><br>
+            <input type="date" id="checkin" name="checkin" required><br><br>
+
+            <label for="checkout">Data de Partida:</label><br>
+            <input type="date" id="checkout" name="checkout" required><br><br>
+
+            <label for="quartos">Número de Quartos:</label><br>
+            <input type="number" id="quartos" name="quartos" min="1"
+                required><br><br>
+
+            <label for="tipoquarto">Tipo de Quarto:</label><br>
+            <select id="tipoquarto" name="tipoquarto">
+                <option value="simples">Simples</option>
+                <option value="duplo">Duplo</option>
+                <option value="suite">Suíte</option>
+            </select><br><br>
+
+            <label for="observacoes">Observações Adicionais:</label><br>
+            <textarea id="observacoes" name="observacoes"
+                rows="4"></textarea><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>

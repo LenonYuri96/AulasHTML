@@ -1,0 +1,31 @@
+body {
+    background-color: #f0f4f7; /* Cor clara de fundo diferente */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    color: #333; /* Cor de texto padrão */
+}
+
+h1 {
+    color: #e94e77; /* Cor do título que se destaca */
+}
+
+ul {
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0;
+}
+
+li {
+    background-color: #fff; /* Fundo branco para itens da lista */
+    border: 1px solid #ccc; /* Borda sutil diferente da `style.css` */
+    margin: 10px 0; /* Espaçamento externo */
+    padding: 10px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+a {
+    color: #e94e77; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}

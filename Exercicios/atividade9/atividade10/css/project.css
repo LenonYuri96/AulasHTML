@@ -1,0 +1,54 @@
+/* Estilo para project.html */
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.project-details {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+.project-details img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+}
+
+.project-details h2 {
+    color: #333;
+    margin: 10px 0;
+}
+
+.project-details p {
+    color: #666;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.project-details a {
+    text-decoration: none;
+    color: #0066cc;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+.project-details a:hover {
+    text-decoration: underline;
+}
